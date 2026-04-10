@@ -29,6 +29,3 @@ This framework introduces an AI-native evaluation layer to the Software Testing 
     2026-04-11 01:12:49 [main] WARN  com.architecture.evaluator.GatekeeperApp - Hallucination Score: 0.95
     2026-04-11 01:12:49 [main] ERROR com.architecture.evaluator.GatekeeperApp - STATUS: FAILED - Threshold Exceeded!
     Exception in thread "main" java.lang.RuntimeException: CI/CD Pipeline Blocked: LLM Hallucination Detected.
-
-## Future Roadmap
-Expanding the metrics suite to include **Toxicity Scoring** and **Prompt Injection Vulnerability Detection**, utilizing locally hosted open-source models (Ollama/Mistral) for zero-cost, high-frequency pipeline execution.
